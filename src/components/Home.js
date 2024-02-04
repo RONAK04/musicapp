@@ -255,9 +255,6 @@ export default function Home() {
 
 
                 <div>
-                    {/* <input className="flex relative top-[107px]" type="file" accept="audio/*" onChange={handleFileChange} multiple /> */}
-
-
                     <div style={{ height: 400, width: '100%' }}>
                         <DataGrid
                             sx={{ color: "white" }}
@@ -269,7 +266,6 @@ export default function Home() {
                                 console.log("params", params.row.id, currentTrack);
                                 return params.row.id === currentTrack ? 'highlighted' : ''
                             }}
-                            // className={index === currentTrack ? 'highlighted' : ''}
                             components={{
                                 NoRowsOverlay: () => <p className="flex justify-center items-center h-full text-base font-semibold">No songs</p>
                             }}
