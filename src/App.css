@@ -15,9 +15,6 @@ body::before {
   opacity: 1; /* Adjust the opacity as needed */
   z-index: -1;
 }
-.maincon{
-  /* color: white !important; */
-}
 
 .highlighted {
   font-weight: 600;
