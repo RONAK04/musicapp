@@ -4,17 +4,6 @@ body{
   background-repeat: no-repeat;
   color: white;
 }
-body::before {
-  content: "";
-  background: inherit;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 1; /* Adjust the opacity as needed */
-  z-index: -1;
-}
 
 .highlighted {
   font-weight: 600;
